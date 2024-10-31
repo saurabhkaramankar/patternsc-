@@ -14,3 +14,11 @@ for(i=1;i<=n;i++)
 }cout<<"\n";
 }
 }
+n = 5
+13579
+3579
+579
+79
+9
+
+[Program finished]
