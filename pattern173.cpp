@@ -8,23 +8,23 @@ int main()
  cin>>l;
 for(int i=0;i<l;i++)
 {
- for(int j=0;j<l;j++)
+  for(int j=0;j<l;j++)
   {
-    count++;
-    if(j==l-1)
-      {
-       cout<<count;
-      }
- else
- {
- cout<<count<<"*";
- }
+     count++;
+     if(j==l-1)
+     {
+      cout<<count;
+     }
+     else
+     {
+      cout<<count<<"*";
+     }
   }
-
- cout<<"\n";
+   cout<<"\n";
  }
 }
 
+/*
 5
 1*2*3*4*5
 6*7*8*9*10
@@ -33,3 +33,4 @@ for(int i=0;i<l;i++)
 21*22*23*24*25
 
 [Program finished]
+*/
